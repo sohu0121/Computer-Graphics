@@ -16,7 +16,7 @@ PrimitiveMap = {
     glfw.KEY_0: GL_POLYGON
 }
 
-CurrentPrimitive = GL_POINTS
+CurrentPrimitive = GL_LINE_LOOP
 
 
 def render(T):

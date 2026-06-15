@@ -49,6 +49,8 @@ def main():
         s = np.sin(t)
         T = np.array([[s, 0], [0., s * .5]])
 
+        render(T)
+
         # rotation
         th = t
         T = np.array([[np.cos(th), -np.sin(th)], [np.sin(th), np.cos(th)]])
@@ -62,8 +64,6 @@ def main():
 
         # identity matrix
         T = np.identity(2)
-
-        render(T)
 
 
 
